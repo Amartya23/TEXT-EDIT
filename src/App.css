@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+.containerone {
+    margin-top: 1em;
+    background-color: rgb(201, 226, 226); 
+    height: 67vh;
+    width: 30vw; 
+    margin-left: 22em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.First{
+    height: 10vh;
+    font-size: 1em;
+    font-weight: bolder;
+}
+input[type="name"] {
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 20vw;
+}
+
+input[type="email"]{
+    margin-top: 2em;
+    margin-left: 3.8em;
+    width: 20vw;
+}
+input[type="password"]{
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 20vw;
+}
+
+
+/* label[for="email"] {
+    margin-right: 20em;
+} */
+
+.btn-primary{
+    margin-top: 1em;
+    font-style: normal;
+    font-size: larger;
+    border-radius: 0.5em;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-primary:hover {
+    background-color: #ff004f;
+}
+.y-btn{
+    color: white;
+    background-color:#488ad1;
+   
+    margin-top: 1em;
+   width:29vw;
+    font-style: normal;
+    font-size: larger;
+    border-radius: 0.4em;
+    font-family: 'Poppins', sans-serif;
+}
+  .y-btn:hover{
+    background-color:#ff004f;
+  }
+.Para1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 2em;
+    margin-left: 1em;
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.heading {
+font-family: 'Roboto', sans-serif;
+ margin-top: 2em;
+ text-decoration:solid;
+font-weight: 400;
+} 
+.link-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.2em;
+    border-style: none;
+    background: none;
+    color:black;
+    text-decoration:none;
+    margin-top: 1em;
+}
+.link-btn:hover{
+    background-color: transparent;
+}
+ /* @media only screen and (max-width:1060px) {
+     * {
+         margin: 0;
+         padding: 0;
+     }
+.containerone {
+   
+}
+.btn-primary{
+    width: 11vw;
+}
+    }
+ @media only screen and (min-width:1050px) {
+     * {
+         margin: 0;
+         padding: 0;
+     }
+.containerone {
+   
+}
+.First {
+    height: 10vh;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+input[type="name"] {
+    margin-top: 1em;
+    margin-left: 3em;
+    width: 20vw;
+    margin-bottom: 0.5em;
+}
+
+input[type="email"] {
+    margin-top: 2em;
+    margin-left: 3.8em;
+    width: 20vw;
+}
+
+input[type="password"] {
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 20vw;
+}
+    }
+
+ */
